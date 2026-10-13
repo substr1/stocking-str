@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f766e">
+  <title>Stocking — STR supplies</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230f766e'/><path d='M9 12h14l-1.5 12h-11z' fill='white'/><path d='M12 12a4 4 0 0 1 8 0' stroke='white' stroke-width='2' fill='none'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="logo" aria-hidden="true"></span>
+      Stocking
+    </a>
+    <nav>
+      <a href="#/" data-nav="dashboard">Dashboard</a>
+      <a href="#/orders" data-nav="orders">Orders</a>
+      <a href="#/new" data-nav="new" class="nav-cta">+ <span class="hide-sm">Property</span></a>
+    </nav>
+  </header>
+  <main id="view" aria-live="polite"></main>
+  <dialog id="modal"></dialog>
+  <div id="toast" role="status"></div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
